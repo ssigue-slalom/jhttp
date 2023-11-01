@@ -49,6 +49,6 @@ pipeline:
                   identifier: BuildAndPushDockerRegistry_1
                   spec:
                     connectorRef: docker
-                    repo: ssigue/test-harness
+                    repo: ssigue/slalom-work
                     tags:
                       - <+pipeline.sequenceId>
